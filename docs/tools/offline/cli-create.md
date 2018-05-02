@@ -120,7 +120,7 @@ Total Flash memory (text + data + misc): 66014 bytes
 Image: BUILD/K64F/GCC_ARM/mbed-os-program.bin
 ```
 
-The arguments for *compile* are:
+The arguments for *compile* include:
 
 - `-m <MCU>` selects a target. If `detect` or `auto` parameter is passed to `-m`, then Mbed CLI detects the connected target.
 - `-t <TOOLCHAIN>` selects a toolchain (of those defined in `mbed_settings.py`, see above). The value can be `ARM` (Arm Compiler 5), `GCC_ARM` (GNU Arm Embedded) or `IAR` (IAR Embedded Workbench for Arm).
