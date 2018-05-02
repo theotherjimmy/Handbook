@@ -131,7 +131,7 @@ The arguments for *compile* include:
 - `--library` compiles the code as a [static `.a/.ar` library](#compiling-static-libraries).
 - `--no-archive` suppresses the creation of `.a/.ar` files created by `--library`, producing many `.o` files instead.
    <span class="notes">**Note**: This option does nothing without `--library`.</span>
-- `--config` inspects the runtime compile configuration (see below).
+- `--config` inspects the compile configuration (see below).
 - `-S` or `--supported` shows a matrix of the supported targets and toolchains.
 - `-f` or `--flash` flashes/programs a connected target after successful compile.
 - `-c ` builds from scratch, a clean build or rebuild.
