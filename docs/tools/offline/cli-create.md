@@ -127,7 +127,7 @@ The arguments for *compile* include:
 - `--source <SOURCE>` selects the source directory. The default is `.` (the current directory). You can specify multiple source locations, even outside the program tree.
 - `--build <BUILD>` selects the build directory. Default: `BUILD/` inside your program root.
    <span class="notes">**Note**: `mbed compile` ignores the current build directory; creating multiple build directories leads to errors.</span>
-- `--profile <PATH_TO_BUILD_PROFILE>` selects a path to a build profile configuration file. Example: `mbed-os/tools/profiles/debug.json`.
+- `--profile <BUILD_PROFILE>` select predefined build profile, `debug`, `develop` or `release`, or a path to a build profile configuration file. Example: `mbed-os/tools/profiles/debug.json`.
 - `--library` compiles the code as a [static `.a/.ar` library](#compiling-static-libraries).
 - `--no-archive` suppresses the creation of `.a/.ar` files created by `--library`, producing many `.o` files instead.
    <span class="notes">**Note**: This option does nothing without `--library`.</span>
